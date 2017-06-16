@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>Old Skool Bhangra</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="articles.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Articles</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Blog</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Me</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="articles.html" class="w3-bar-item w3-button w3-padding-large">Articles</a>
+    <a href="blog.html" class="w3-bar-item w3-button w3-padding-large">Blog</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Me</a>
+  </div>
+</div>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Title 1</h1>
+      <h5 class="w3-padding-32">This is a temporary heading.</h5>
+
+      <p class="w3-text-grey">The coke allocates the constant. The bananas ecology dies into the heresy. Into the air colors a grave dot. The custard stares under a politician. Can the newest censor smell past the foreigner? How can the unset reluctance pulse on top of the beard?</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <a href="https://www.facebook.com/bhangraescapist"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+	<a href="https://www.soundcloud.com/bhangra-escapist"><i class="fa fa-soundcloud w3-hover-opacity"></i></a>
+	<a href="https://www.twitter.com/bhangraescapist"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+
+	<!--
+	<i class="fa fa-instagram w3-hover-opacity"></i>
+	<i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+	-->
+	
+ </div>
+ <p>Coded by Karanvir Singh Kalsi. Initial website template from <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
